@@ -57,9 +57,23 @@ div#formulario > h1{
 div#formulario > p{
     font-size: 0.8em;
 }
+div.campo  > input{
+    font-size: 1em;
+    background-color: #91e8e5;
+    
+}
 div.campo > label{
     display: none;
 
+}
+div.campo > span{
+ 
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+div.campo > input:focus-within{
+    background-color: white;
 }
 
 form > input[type=submit] {
